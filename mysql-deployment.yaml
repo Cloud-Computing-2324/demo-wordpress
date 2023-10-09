@@ -27,13 +27,6 @@ spec:
           value:  wordpress
         - name:  MYSQL_PASSWORD
           value:  password
-        resources:
-          requests:
-            cpu: 100m
-            memory: 100Mi
-          limits:
-            cpu: 100m
-            memory: 100Mi
         ports:
         - containerPort:  3306
           name:  mysql
